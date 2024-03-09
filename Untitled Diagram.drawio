@@ -1,19 +1,22 @@
-<mxfile modified="2024-03-09T07:06:40.285Z" host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="JSnwQzWWuTP6c1KoQeS8" version="24.0.2" type="github">
+<mxfile modified="2024-03-09T07:38:24.810Z" host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="eMM2a6o2mdjgfElwBalg" version="24.0.2" type="github">
   <diagram id="l8hXMBHkgcEJcSW0mbfh" name="Page-1">
     <mxGraphModel dx="1050" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="HFkbGWzhtWchpnAS7qv4-1" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+        <mxCell id="HFkbGWzhtWchpnAS7qv4-1" value="&lt;div&gt;Splunk Server&lt;/div&gt;&lt;div&gt;IP: 192.168.2.22&lt;br&gt;&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
           <mxGeometry x="80" y="200" width="28.000000000000004" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="HFkbGWzhtWchpnAS7qv4-2" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+        <mxCell id="HFkbGWzhtWchpnAS7qv4-2" value="&lt;div&gt;Active Directory&lt;/div&gt;&lt;div&gt;IP:192.168.2.2&lt;/div&gt;&lt;div&gt;Splunk Universal Forwarder&lt;/div&gt;&lt;div&gt;Sysmon&lt;br&gt;&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
           <mxGeometry x="80" y="320" width="28.000000000000004" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="HFkbGWzhtWchpnAS7qv4-3" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;" vertex="1" parent="1">
+        <mxCell id="HFkbGWzhtWchpnAS7qv4-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fillColor=#008a00;strokeColor=#005700;dashed=1;" edge="1" parent="1" source="HFkbGWzhtWchpnAS7qv4-3" target="HFkbGWzhtWchpnAS7qv4-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HFkbGWzhtWchpnAS7qv4-3" value="&lt;div&gt;Windows 11&lt;/div&gt;&lt;div&gt;IP: dynamic&lt;/div&gt;&lt;div&gt;Spunk Universal Forwarder&lt;/div&gt;&lt;div&gt;Sysmon&lt;br&gt;&lt;/div&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="391" width="50" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="HFkbGWzhtWchpnAS7qv4-4" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=#C73500;fillColor=#fa6800;shape=mxgraph.azure.computer;pointerEvents=1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="HFkbGWzhtWchpnAS7qv4-4" value="&lt;div&gt;Arch/Garuda&lt;/div&gt;&lt;div&gt;IP:192.168.2.44&lt;br&gt;&lt;/div&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=#C73500;fillColor=#fa6800;shape=mxgraph.azure.computer;pointerEvents=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="640" y="252.5" width="50" height="45" as="geometry" />
         </mxCell>
         <mxCell id="HFkbGWzhtWchpnAS7qv4-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HFkbGWzhtWchpnAS7qv4-6" target="HFkbGWzhtWchpnAS7qv4-7">
@@ -51,6 +54,12 @@
         </mxCell>
         <mxCell id="HFkbGWzhtWchpnAS7qv4-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HFkbGWzhtWchpnAS7qv4-4" target="HFkbGWzhtWchpnAS7qv4-6">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HFkbGWzhtWchpnAS7qv4-24" value="&lt;font color=&quot;#009900&quot;&gt;Internet&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="407.62" y="35" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HFkbGWzhtWchpnAS7qv4-25" value="&lt;div&gt;Domain: s3cure&lt;/div&gt;&lt;div&gt;Network: 192.168.2.0/24&lt;/div&gt;&lt;div&gt;Spunk Server: 192.168.2.22&lt;/div&gt;&lt;div&gt;Active Directory: 192.168.2.2&lt;/div&gt;&lt;div&gt;Attacker: 192.168.2.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="35" width="220" height="115" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
