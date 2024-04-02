@@ -1,14 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2024-04-02T08:27:39.895Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="H3PxJDSBXRCMbEDCQHPI" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-02T17:55:04.398Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="sl6HliJhRlS6YlVL2djL" version="24.2.1" type="github">
   <diagram name="Page-1" id="R-WMTtVvu_zLb-jKjLG8">
     <mxGraphModel dx="1050" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="FU2CgBFFjjN2IJPbU8A8-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" parent="1" source="FU2CgBFFjjN2IJPbU8A8-1" target="FU2CgBFFjjN2IJPbU8A8-3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FU2CgBFFjjN2IJPbU8A8-1" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server_2.svg;" parent="1" vertex="1">
-          <mxGeometry x="111" y="179.75" width="56" height="70" as="geometry" />
+        <mxCell id="FU2CgBFFjjN2IJPbU8A8-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" parent="1" target="FU2CgBFFjjN2IJPbU8A8-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160.16315173153953" y="237.66700408498195" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="FU2CgBFFjjN2IJPbU8A8-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;startArrow=none;startFill=0;strokeColor=none;endArrow=oval;endFill=1;" parent="1" source="FU2CgBFFjjN2IJPbU8A8-2" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -44,9 +43,9 @@
         <mxCell id="FU2CgBFFjjN2IJPbU8A8-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="FU2CgBFFjjN2IJPbU8A8-6" target="FU2CgBFFjjN2IJPbU8A8-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FU2CgBFFjjN2IJPbU8A8-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.714;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="FU2CgBFFjjN2IJPbU8A8-1" target="FU2CgBFFjjN2IJPbU8A8-6" edge="1">
+        <mxCell id="FU2CgBFFjjN2IJPbU8A8-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.714;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="FU2CgBFFjjN2IJPbU8A8-6" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="150" y="207" as="sourcePoint" />
+            <mxPoint x="150.98399999999992" y="214.75" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FU2CgBFFjjN2IJPbU8A8-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.714;exitY=0.571;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="FU2CgBFFjjN2IJPbU8A8-2" target="FU2CgBFFjjN2IJPbU8A8-6" edge="1">
@@ -75,6 +74,9 @@
         </mxCell>
         <mxCell id="dSrURc1zTioQhYgRECf4-10" value="Switch" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="419.68" y="310.75" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kr943VyDLUG2NH_4uqgp-1" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="120" y="179.75" width="39.2" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
