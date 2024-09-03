@@ -1,0 +1,74 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.10">
+  <diagram name="Page-1" id="9cE2K_ncDOre9PxvBgTN">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Office Building 3" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="335" y="414" width="385" height="196" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Cloud Services" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="370" y="453" width="119" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Cybersecurity Hub" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="539" y="439" width="146" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Office Building 2" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="346" width="366" height="345" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Main Office" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="479" y="223" width="97" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="DevOps Lab" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="580" y="28" width="98" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Office Building 1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry width="326" height="154" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Server Room" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="35" y="25" width="104" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Data Center" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="189" y="26" width="102" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="150 devices" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.16;" edge="1" parent="1" source="9" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="87" y="154" />
+              <mxPoint x="408" y="189" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="50 servers" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.43;entryY=0;" edge="1" parent="1" source="10" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="154" />
+              <mxPoint x="517" y="189" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="20 developers" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.09;" edge="1" parent="1" source="7" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="629" y="189" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="high-speed connection" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.88;entryX=0.5;entryY=0;" edge="1" parent="1" source="6" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="429" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="secure connection" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.94;entryX=0.5;entryY=0;" edge="1" parent="1" source="6" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="612" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
